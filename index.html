@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Exercise Fictional Site</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap"
+        rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/4e82a36564.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="top__header">
+            <div class="container">
+                <p><span class="text-primary">VC</span>Experience</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="main-nav__container">
+                <ul>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">testimonials</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner__content">
+                    <h1>We are here for you!</h1>
+                    <p>Our fund is committed to the furthering entrepreneurs in the mobility sector.</p>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="services__container">
+                    <div class="service">
+                        <i class="service__icon fas fa-solar-panel"></i>
+                        <h3 class="service__name">AeroArgonauts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam.</p>
+                    </div>
+                    <div class="service">
+                        <i class="service__icon fas fa-plane-departure"></i>
+                        <h3 class="service__name">AutoBueno</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam.</p>
+                    </div>
+                    <div class="service">
+                        <i class="service__icon fas fa-spa"></i>
+                        <h3 class="service__name">ValetToday</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam.</p>
+                    </div>
+                    <div class="service">
+                        <i class="service__icon fas fa-holly-berry"></i>
+                        <h3 class="service__name">TigerTreads</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="heading__title">our team leaders</h2>
+                    <p class="heading__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aperiam! Commodi nisi hic saepe quo est?</p>
+                </div>
+
+                <div class="team__container">
+                    <div class="team__member">
+                        <figure class="team__photo">
+                            <img src="./img/team-3.jpg" alt="Founder Working Yoga" class="team__img">
+                        </figure>
+                        <div class="team__detail">
+                            <h3 class="team__name">Hugo Silva</h3>
+                            <p class="team__role">C.E.O. - Founder and Principal Investor</p>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <figure class="team__photo">
+                            <img src="./img/team-2.jpg" alt="Co-Founder working Yoga" class="team__img">
+                        </figure>
+                        <div class="team__detail">
+                            <h3 class="team__name">Javier Bardem</h3>
+                            <p class="team__role">Partner - Research & Development</p>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <figure class="team__photo">
+                            <img src="./img/team-1.jpg" alt="Co-Founder working Yoga" class="team__img">
+                        </figure>
+                        <div class="team__detail">
+                            <h3 class="team__name">Jena Doe</h3>
+                            <p class="team__role">Partner - Partnerships & Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="heading">
+                <div class="container">
+                    <h2 class="heading__title">Our gallery</h2>
+                    <p class="heading__description">Reiciendis rerum iure dicta aut praesentium neque magnam minima dolore error blanditiis necessitatibus rem inventore quis, accusantium labore.</p>
+                </div>
+            </div>
+            <div class="gallery__container">
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-1.jpg" alt="Gallery Picture One" class="gallery__img">
+                </figure>
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-2.jpg" alt="Gallery Picture Two" class="gallery__img">
+                </figure>
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-3.jpg" alt="Gallery Picture Three" class="gallery__img">
+                </figure>
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-4.jpg" alt="Gallery Picture Four" class="gallery__img">
+                </figure>
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-5.jpg" alt="Gallery Picture Five" class="gallery__img">
+                </figure>
+                <figure class="gallery__picture">
+                    <img src="./img/gallery-6.jpg" alt="Gallery Picture Six" class="gallery__img">
+                </figure>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="heading__title">contact us</h2>
+                    <p class="heading__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                </div>
+                <form class="contact__form" method="POST" action="#">
+                    <div class="form__row">
+                        <input type="text" name="name" id="name" placeholder="Full Name" />
+                        <input type="email" name="email" id="email" placeholder="Email Address" />
+                    </div>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>Copyright &copy; 2020 VC Experience. All right reserved!</p>
+                <ul class="social-link">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
